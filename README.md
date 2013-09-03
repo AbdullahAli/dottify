@@ -1,4 +1,4 @@
 dottify
 =======
 
-Create a dotted path from a Hash/Json
+Create a dotted path from a Hash/Json.
