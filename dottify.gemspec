@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/dottify/version', __FILE__)
+require File.expand_path('./lib/dottify/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Abdullah Ali"]
   gem.email         = ["abdullah-ali@hotmail.co.uk"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{This gem allows you to doffity the path to an element in a Hash#Json}
+  gem.summary       = %q{More to follow}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
