@@ -2,13 +2,19 @@
 
 Dottify allows you to easily and intuitively find an element in a hash.
 
-Whilst Gems like DotHash address issues similar to this gem, DotHash does not deal with hash keys that are numbers.
+Whilst Gems like DotHash address issues similar to this gem, DotHash does not deal with hash keys that contain numbers.
 
-Are you tried of code that looks like this?
+
+Are you tried of accessing hash values with code that looks like this?
+
+    params = {'chicken' => {'egg' => {'.first' => 'no idea..'}}}
 
     params['chicken']['egg']['first']             # => 'no idea..'
 
-This this gem is for you! This horrible code can be replaced by:
+
+Then this gem is for you!
+
+This horrible code can be replaced by:
 
     params.dotted_path('chicken.egg.first')       # => 'no idea..'
 
@@ -21,7 +27,9 @@ What about hash keys that have numbers? No worries..
     params.dotted_path('chicken.egg.1')           # => 'no idea..'
 
 
-That is it! This gem is currently an experimental gem.  I would like for anyone to get in contact with me and suggest any ideas you have.
+That is it!
+
+This gem is currently an experimental gem.  I would like for anyone to get in contact with me and suggest any ideas you have.
 
 ## Installation
 
