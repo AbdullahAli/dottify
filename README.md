@@ -2,7 +2,7 @@
 
 Dottify allows you to easily and intuitively find an element in a hash.
 
-Whilst Gems like DotHash address issues similar to this gem, DotHash does not deal with hash keys that contain numbers.
+Whilst Gems like dotted_hash  address issues similar to this gem, it does not deal with hash keys that contain numbers.
 
 
 Are you tried of accessing hash values with code that looks like this?
