@@ -7,7 +7,7 @@ Whilst Gems like DotHash address issues similar to this gem, DotHash does not de
 
 Are you tried of accessing hash values with code that looks like this?
 
-    params = {'chicken' => {'egg' => {'.first' => 'no idea..'}}}
+    params = {'chicken' => {'egg' => {'first' => 'no idea..'}}}
 
     params['chicken']['egg']['first']             # => 'no idea..'
 
