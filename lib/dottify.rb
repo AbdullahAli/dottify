@@ -1,17 +1,15 @@
 require "./lib/dottify/version"
 
 module Dottify
-  module DottedPath
-    def dottified(path)
-      path_head, path_remainder = path.split('.', 2)
-      match = self[path_head]
-      if !match.kind_of?(Hash) || !path_remainder
-        match
-      else
-        match.dottified(path_remainder)
-      end
+  def dotted_path(path, delimiter='.')
+    path_head, path_remainder = path.split(delimiter, 2)
+    match = self[path_head]
+    if !match.kind_of?(Hash) || !path_remainder
+      match
+    else
+      match.dotted_path(path_remainder, delimiter)
     end
   end
 end
 
-Hash.send :include, Dottify::DottedPath
+Hash.send :include, Dottify
