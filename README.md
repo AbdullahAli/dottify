@@ -29,7 +29,7 @@ What about hash keys that have numbers? No worries..
 
 That is it!
 
-This gem is currently an experimental gem.  If would like for anyone to get in contact with me and suggest any ideas you have.
+This gem is currently an experimental gem.  If you have an ideas or questions, please get in contact with me.  Good feedback and bad feedback is welcomed!
 
 ## Installation
 
