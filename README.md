@@ -1,6 +1,27 @@
 # Dottify
 
-TODO: Write a gem description
+Dottify allows you to easily and intuitively find an element in a hash.
+
+Whilst Gems like DotHash address issues similar to this gem, DotHash does not deal with hash keys that are numbers.
+
+Are you tried of code that looks like this?
+
+    params['chicken']['egg']['first']             # => 'no idea..'
+
+This this gem is for you! This horrible code can be replaced by:
+
+    params.dotted_path('chicken.egg.first')       # => 'no idea..'
+
+Are you using the dot character within the hash keys? or you want to have another delimiter? No worries..
+
+    params.dotted_path('chicken/egg/first', '/')  # => 'no idea..'
+
+What about hash keys that have numbers? No worries..
+
+    params.dotted_path('chicken.egg.1')           # => 'no idea..'
+
+
+That is it! This gem is currently an experimental gem.  I would like for anyone to get in contact with me and suggest any ideas you have.
 
 ## Installation
 
@@ -15,10 +36,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install dottify
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
