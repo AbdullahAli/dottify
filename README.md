@@ -24,6 +24,7 @@ Are you using the dot character within the hash keys? or you want to have anothe
 
 What about hash keys that have numbers? No worries..
 
+    params = {'chicken' => {'egg' => {'1' => 'no idea..'}}}
     params.dotted_path('chicken.egg.1')           # => 'no idea..'
 
 
