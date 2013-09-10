@@ -1,5 +1,3 @@
-require "./lib/dottify/version"
-
 module Dottify
   def dotted_path(path, delimiter='.')
     path_head, path_remainder = path.split(delimiter, 2)
